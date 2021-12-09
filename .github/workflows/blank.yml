@@ -18,7 +18,7 @@ jobs:
       - name: 'Azure Load Testing'
         uses: azure/load-testing@v1
         with:
-          loadTestConfigFile: 'SampleApp.yaml'
+          loadTestConfigFile: 'config.yaml'
           loadTestResource: 'iwasa-load-test1'
           resourceGroup: '20211203'
       
