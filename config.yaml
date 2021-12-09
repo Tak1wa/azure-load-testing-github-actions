@@ -2,6 +2,3 @@ testName: hoge
 testPlan: iwasa-jmeter1.jmx
 description: ''
 engineInstances: 2
-failureCriteria:
-- percentage(error) > 10
-- avg(response_time_ms) > 400
